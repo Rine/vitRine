@@ -10,7 +10,7 @@ app.config(["$routeProvider", "$httpProvider",
       })
       .when('/me', {
         templateUrl: 'pages/me.html',
-        controller: "whoAmIController"
+        controller: "meController"
       })	  
  /*     .when('/signup', {
         templateUrl: 'views/signup.html',
