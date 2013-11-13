@@ -5,10 +5,10 @@ app.config(["$routeProvider", "$httpProvider",
     $httpProvider.defaults.headers['common']['Accept'] = 'application/json';
     $routeProvider
       .when('/', {
-        templateUrl: 'views/firstPage.html',
-        controller: "firstPageController"
+        templateUrl: 'pages/whoAmI.html',
+        controller: "whoAmIController"
       })
-      .when('/peopleList', {
+ /*     .when('/peopleList', {
         templateUrl: 'views/peopleList.html',
         controller: "PeopleListController"
       })	  
@@ -16,7 +16,7 @@ app.config(["$routeProvider", "$httpProvider",
         templateUrl: 'views/signup.html',
 	controller: "SignupController"
       })	  
-
+*/
       .otherwise({
         redirectTo: '/'
       });
