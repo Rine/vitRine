@@ -1,0 +1,57 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>site VitRine</title>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/componentLink.css" />
+	<link rel="stylesheet" type="text/css" href="css/animations.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/libs/modernizr.custom.js"></script>
+	<script src="js/libs/modernizr-2.0.6.min.js"></script>
+
+</head>
+
+
+ <body ng-app="app">
+	<div id="header-container">
+		<header class="wrapper clearfix">
+			<h1 id="title">h1#title</h1>
+			<nav>
+				<ul class="cl-effect-6">
+					<li><a href="#">to the left</a></li>
+					<li><a href="#">to the right</a></li>
+					<li><a href="#">to the top</a></li>
+					<li><a href="#">to the bottom</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+
+
+     <div id="container" ng-view></div>
+	 
+	<script type="text/javascript" src="js/libs/angular.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/libs/services/network.js"></script>
+  <!--  <script type="text/javascript" src="js/libs/controllers/firstPageController.js"></script>
+	<script type="text/javascript" src="js/libs/controllers/PeopleListController.js"></script>		
+	<script type="text/javascript" src="javascripts/controllers/signupController.js"></script> -->
+
+	<div id="footer-container">
+		<footer class="wrapper">
+			<h3>footer</h3>
+		</footer>
+	</div>
+
+</body>
+</html>
