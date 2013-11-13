@@ -8,11 +8,11 @@ app.config(["$routeProvider", "$httpProvider",
         templateUrl: 'pages/whoAmI.html',
         controller: "whoAmIController"
       })
- /*     .when('/peopleList', {
-        templateUrl: 'views/peopleList.html',
-        controller: "PeopleListController"
+      .when('/me', {
+        templateUrl: 'views/me.html'
+       // controller: "meController"
       })	  
-      .when('/signup', {
+ /*     .when('/signup', {
         templateUrl: 'views/signup.html',
 	controller: "SignupController"
       })	  
