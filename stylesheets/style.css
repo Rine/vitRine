@@ -175,10 +175,8 @@ nav ul li{
 	
 	nav a{
 		float:left;
-		width:20%;
-		margin:1%;
 		padding:2%;
-		margin-bottom:0;
+		margin:6px;
 	}
 	
 	nav li:first-child a{ margin-left:0;  }
