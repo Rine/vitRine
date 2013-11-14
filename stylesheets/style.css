@@ -129,7 +129,7 @@ nav ul li{
    ============== */
 
 #main{
-	padding:30px 0;
+	padding:30px 10px;
 }
 
 #main article h1{
@@ -185,7 +185,6 @@ nav ul li{
 	.navButton {
 		font-size: 11px;
 		max-width: 200px;
-		overflow: auto;
 	}
 	
 /* ========================
@@ -223,7 +222,7 @@ nav ul li{
 
 	nav{
 		float:right;
-		width:50%;
+		width:80%;
 	}
 
 /* ============
