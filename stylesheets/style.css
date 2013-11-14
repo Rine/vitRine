@@ -183,6 +183,12 @@ nav ul li{
 	
 	nav li:first-child a{ margin-left:0;  }
 	nav li:last-child  a{ margin-right:0; }
+
+	.navButton {
+		font-size: 11px;
+		max-width: 100px;
+		overflow: auto;
+	}
 	
 /* ========================
     INTERMEDIATE: IE Fixes
