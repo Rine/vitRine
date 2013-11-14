@@ -97,11 +97,15 @@ body{ font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; }
 /* ==============
     MOBILE: Menu
    ============== */
+nav{
+width: 70%;
+}
 
-nav a{
-	display:block;
+nav div a{
+	float:left;
+
 	margin-bottom:10px;
-	padding:15px 0;
+	padding:2px 5px;
 
 	background:#e44d26;
 	color:white;
@@ -123,6 +127,11 @@ nav ul li{
 		font-size: 12px;
 		min-width: 100px;
 	}
+
+.navButton {
+	font-size: 11px;
+	max-width: 200px;
+}
 
 /* ==============
     MOBILE: Main
@@ -182,10 +191,7 @@ nav ul li{
 	nav li:first-child a{ margin-left:0;  }
 	nav li:last-child  a{ margin-right:0; }
 
-	.navButton {
-		font-size: 11px;
-		max-width: 200px;
-	}
+
 	
 /* ========================
     INTERMEDIATE: IE Fixes
@@ -220,23 +226,18 @@ nav ul li{
 		float:left;
 	}
 
-	nav{
-		float:right;
-		width:80%;
-	}
-
 /* ============
     WIDE: Main
    ============ */
 
 	#main article{
 		float:left;
-		width:57%;
+		width:70%;
 	}
 		
 	#main aside{
 		float:right;
-		width:28%;
+		width:30%;
 	}
 }
 
