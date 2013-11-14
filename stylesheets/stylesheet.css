@@ -363,7 +363,7 @@ footer a:hover {
   color: #444;
 }
 
-/* MISC */
+/* MISC 
 .clearfix:after {
   clear: both;
   content: '.';
@@ -372,9 +372,9 @@ footer a:hover {
   height: 0;
 }
 
-.clearfix {display: inline-block;}
+/*.clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
-.clearfix {display: block;}
+.clearfix {display: block;}*/
 
 /* #Media Queries
 ================================================== */
