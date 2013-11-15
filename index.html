@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-      <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+      <link rel="stylesheet" type="text/css" href="stylesheets/myStyle.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/componentLink.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/animations.css" />
 
@@ -24,24 +24,40 @@
     <title>VitRine by Rine</title>
   </head>
 
-  <body body ng-app="app">
+  <body>
 
-  <div id="header-container">
-    <header class="wrapper clearfix">
-        <h1>Vitrine</h1>
+  <div class="header-container">
+    <header class="wrapper clearfix"> 
+
+        <h1 class="title">Vitrine</h1>
         <h2>site vitrine de moi</h2>
         <a href="https://github.com/Rine/vitRine" class="button"><small>View project on</small>GitHub</a>
-      
-    </header>
+   </header> 
   </div>
   
-  <div id="main-container" class="wrapper clearfix">
-  <div id="main">    
+  <div class="main-container" >
+    <div class="main inner-wrapper clearfix">    
       <article>
         <section>
           <p>Projet en construction !!!</p>
-             <div id="container" ng-view></div>
         </section>
+
+        <section >
+
+        
+          <h3> Mais qui suis-je ?? </h3>
+            <nav class="cl-effect-6">
+              <div ng-click="clickOnMe()" ><a class="navButton"> ... Un parcours </a></div>
+              <div > <a class="navButton"> ... Des réalisations </a></div>
+              <div  > <a class="navButton"> ... Des lubies </a> </div>
+              <div  > <a class="navButton"> ... Plein de voyages </a></div>
+
+            </nav>
+            <!--<label for="inputLogIn"> Nom d'utilisateur <span class="error_message"></span>: </label>
+            <input type="text" placeholder="ex: Maïté" name="login" id="inputLogIn" ng-model="login"> -->
+        
+        </section>
+
       </article>
 
       <aside >
@@ -56,11 +72,11 @@
 
         <p class="repo-owner"><a href="https://github.com/Rine/vitRine"></a> is maintained by <a href="https://github.com/Rine">Rine</a>.</p>
       </aside>   
-  </div> 
+    </div> 
   </div>
 
-  <div id="footer-container">
-    <footer class="wrapper">
+  <div class="footer-container">
+    <footer class="footer wrapper clearfix">
       <h3>footer</h3>
     </footer>
   </div>
