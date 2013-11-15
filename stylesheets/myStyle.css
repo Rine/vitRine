@@ -10,7 +10,7 @@
  * ================================ normalize ==========================================================
  */
 
- article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
@@ -23,8 +23,9 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
 
 a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a:visited {
+ color:  #e44d26; }
+a:hover { text-shadow: 0 0 2px rgba(255, 255, 255, 0.5); }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
@@ -109,39 +110,49 @@ height: 100%;
 	ALL : display
 	================*/
 
+div{
+/*	background-color: purple;*/
+}
+
 .main-container{
+/*	background-color: red;*/
 	padding: 2% 0;
 }
 
 .aside{
+/*	background-color: blue;*/
+	vertical-align: top;
 	min-width: 200px;
 	color:white;
-	padding:0px 5% 10px;	
+	padding:4% 2%;	
 	width:28%;
 	display: inline-block;
 }
 .article{
-	min-width: 600px;
-	display: inline-block;/**/
-	width:70%;
+/*	background-color: pink;*/
+	min-width: 300px;
+	display: inline-block;
+	width:65%;
+	margin: 1% auto;
 }
 
 .footer-container footer{
 	color:white;
-	padding:20px 0px;
+	padding:3% 0px;
 }
 
 .navButton{
 	background: none repeat scroll 0 0 #E44D26;
 	color: white;
-	float: left;
+	/*float: left;*/
 	font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
     text-align: center;
     text-decoration: none;
     letter-spacing: 1px;
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
     text-transform: uppercase;
+    width: 80%
 }
 
 .title{ color:white; }
@@ -149,12 +160,6 @@ height: 100%;
 ::-moz-selection { background: #f16529; color: #fff; text-shadow: none; }
 ::selection      { background: #f16529; color: #fff; text-shadow: none; }
 
-
-
-.footer-container footer{
-	color:white;
-	padding:3% 0;
-}
 
 
 /* ====================
