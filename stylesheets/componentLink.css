@@ -1,19 +1,12 @@
-*,
-*:after,
-*::before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
-body {
+/*body {
 	font-family: 'Raleway', sans-serif;
-}
+}*/
 
 nav a {
 	position: relative;
 	display: inline-block;
-	margin: 15px 25px;
+	margin: 10px 20px;
 	outline: none;
 	color: #fff;
 	text-decoration: none;

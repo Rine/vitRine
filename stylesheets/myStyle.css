@@ -10,7 +10,7 @@
  * ================================ normalize ==========================================================
  */
 
- article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; resize: vertical; }
+ article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
@@ -72,6 +72,7 @@ td { vertical-align: top; }
 body{ 
 font:16px/24px Helvetica, Helvetica Neue, Arial, sans-serif; 
 margin: 0px;
+height: 100%;
 }
 
 /* ======================================== non-semantic helper classes ======================================== */
@@ -96,11 +97,11 @@ margin: 0px;
 
 .header-container{ border-bottom: 20px solid #e44d26; }
 .footer-container{ border-top:    20px solid #e44d26; }
-.main aside      { border-top:    20px solid #e44d26; }
+.aside      { border-top:    20px solid #e44d26; }
 
 .header-container,
 .footer-container,
-.main aside{
+.aside{
 	background:#f16529;
 }
 
@@ -109,12 +110,20 @@ margin: 0px;
 	================*/
 
 .main-container{
-    padding: 30px 5px;
+	padding: 2% 0;
 }
 
-aside{
+.aside{
+	min-width: 200px;
 	color:white;
 	padding:0px 5% 10px;	
+	width:28%;
+	display: inline-block;
+}
+.article{
+	min-width: 600px;
+	display: inline-block;/**/
+	width:70%;
 }
 
 .footer-container footer{
@@ -141,52 +150,24 @@ aside{
 ::selection      { background: #f16529; color: #fff; text-shadow: none; }
 
 
-/* ==============
-    MOBILE: display
-   ============== */
-
-.main aside{
-	padding:0px 5% 10px;
-}
 
 .footer-container footer{
 	color:white;
-	padding:20px 0;
+	padding:3% 0;
 }
 
-
-/* ======================================================  media queries ====================================================== */
-@media only screen and (min-width: 768px) {
-		
-/*	.main aside{
-		float:right;
-		width:30%;
-	}*/
 
 /* ====================
     WIDE: CSS3 Effects
    ==================== */
 
 	.header-container,
-	.main aside{
+	.aside{
 		-webkit-box-shadow:0 5px 10px #aaa;
 		   -moz-box-shadow:0 5px 10px #aaa;
 		        box-shadow:0 5px 10px #aaa;
 	}
 
-/* ============
-    WIDE: Main
-   ============ */
 
-	.main article{
-		float:left;
-		width:57%;
-	}
-		
-	.main aside{
-		float:right;
-		width:28%;
-	}
-}
 
 
