@@ -1,0 +1,76 @@
+*,
+*:after,
+*::before {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+div.ng-scope{
+min-width: 300px;
+display: inline-block;
+width: 80%;
+margin: 1% auto;
+}
+
+.lightStylePanel{
+  background-color: rgba(221, 221, 221, 0.21);
+  padding: 2% 5%;
+  opacity: 0.7;
+  border-top: 20px solid #FE9706;
+  width: 60%;
+  border-radius: 0px 0px 15px 15px;
+  -webkit-border-radius: 0px 0px 15px 15px;
+  -moz-border-radius: 0px 0px 15px 15px;
+  -ms-border-radius: 0px 0px 15px 15px;
+  -o-border-radius: 0px 0px 15px 15px;
+
+  box-shadow: 0px 3px 0px 0px #656161;
+  -webkit-box-shadow: 0px 3px 0px 0px #656161;
+  -moz-box-shadow: 0px 3px 0px 0px #656161;
+  -ms-box-shadow: 0px 3px 0px 0px #656161;
+  -o-box-shadow: 0px 3px 0px 0px #656161;
+
+  display: inline-block;
+}
+.lightStylePanelDrag{
+  background-image: url(../images/yeahDragDrop.png);
+  background-repeat: no-repeat;
+
+  box-shadow: 4px 6px 11px 0px #5F5D5D;
+  -webkit-box-shadow: 4px 6px 11px 0px #5F5D5D;
+  -moz-box-shadow: 4px 6px 11px 0px #5F5D5D;
+  -ms-box-shadow: 4px 6px 11px 0px #5F5D5D;
+  -o-box-shadow: 4px 6px 11px 0px #5F5D5D;
+}
+
+.dropTarget{
+
+  background-color: rgba(221, 221, 221, 0.18);
+  opacity: 1;
+  border: 4px dashed #FA360F;
+
+  border-radius: 8px; 
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+
+  display: inline-block;	
+  width: 30% !important;
+}
+.dropTarget.over{
+  background-color: #B7FD08;
+  opacity: 0.5;
+}
+
+.dropTarget.ng-isolate-scope.ng-scope.dropped{
+/*.dropTarget.dropped{*/
+  background-image: url(../images/dropped.png);
+  background-repeat: no-repeat;
+  background-color: rgba(221, 221, 221, 0.18);
+}
+
+
+
+
