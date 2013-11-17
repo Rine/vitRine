@@ -6,11 +6,11 @@
   box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-div.ng-scope{
+/*div.ng-scope{
 min-width: 300px;
 width: 80%;
 margin: 1% auto;
-}
+}*/
 
 .lightStylePanel{
   background-color: rgba(221, 221, 221, 0.21);
