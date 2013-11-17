@@ -1,12 +1,12 @@
 app.controller('whoAmIController', ['$scope', 'Network', '$location', function($scope, $network, $location) {
 
 
-    $scope.clickOnMe = function() {
+/*    $scope.clickOnMe = function() {
        alert('Bomb has been planted');
     }
-
- //   $scope.clickSignUp = function() {
-   //     $location.path("/signup");
-    //}
+*/
+   $scope.clickSignUp = function() {
+       $location.path("/signup");
+    }
 
 }]);
