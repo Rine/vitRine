@@ -1,6 +1,6 @@
 var app = angular.module('app', []);
 
-app.config(["$routeProvider", "$httpProvider",
+/*app.config(["$routeProvider", "$httpProvider",
   function($routeProvider, $httpProvider) {
     $httpProvider.defaults.headers['common']['Accept'] = 'application/json';
     $routeProvider
@@ -10,19 +10,14 @@ app.config(["$routeProvider", "$httpProvider",
       })
       .when('/me', {
         templateUrl: 'pages/me.html',
-        controller: "dragDropController"
-      })	  
- /*     .when('/signup', {
-        templateUrl: 'views/signup.html',
-	controller: "SignupController"
-      })	  
-*/
+        controller: "meController"
+      })    
       .otherwise({
         redirectTo: '/'
       });
   }
 ]);
-
+*/
 
 app.directive('draggable', function() {
     return function(scope, element) {
@@ -100,7 +95,8 @@ app.directive('droppable', function() {
         function(e) {
         // Stops some browsers from redirecting.
         if (e.stopPropagation) e.stopPropagation();
-
+        e.preventDefault();
+        
         this.classList.remove('over');
 
         var item = document.getElementById(e.dataTransfer.getData('Text'));

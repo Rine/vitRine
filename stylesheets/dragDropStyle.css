@@ -6,11 +6,18 @@
   box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-/*div.ng-scope{
+div.ng-scope{
 min-width: 300px;
+display: inline-block;
 width: 80%;
 margin: 1% auto;
-}*/
+}
+
+.panel-container{
+  padding-right: 5%;
+  width: 60%;
+  display: inline-block;
+}
 
 .lightStylePanel{
   background-color: rgba(221, 221, 221, 0.21);
@@ -18,6 +25,8 @@ margin: 1% auto;
   opacity: 0.7;
   border-top: 20px solid #FE9706;
   width: 60%;
+  min-height: 70px;
+
   border-radius: 0px 0px 15px 15px;
   -webkit-border-radius: 0px 0px 15px 15px;
   -moz-border-radius: 0px 0px 15px 15px;
@@ -30,7 +39,7 @@ margin: 1% auto;
   -ms-box-shadow: 0px 3px 0px 0px #656161;
   -o-box-shadow: 0px 3px 0px 0px #656161;
 
-  display: inline-block;
+
 }
 .lightStylePanelDrag{
   background-image: url(../images/yeahDragDrop.png);
@@ -55,9 +64,9 @@ margin: 1% auto;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
 
-  display: inline-block;	
+  display: inline-block;  
   width: 30% !important;
-  min-height: 400px;
+  min-height: 250px;
 }
 .dropTarget.over{
   background-color: #B7FD08;
