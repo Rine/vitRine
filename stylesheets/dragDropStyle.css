@@ -6,12 +6,12 @@
   box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-div.ng-scope{
+/*div.ng-scope{
 min-width: 300px;
 display: inline-block;
 width: 80%;
 margin: 1% auto;
-}
+}*/
 
 .panel-container{
   padding-right: 5%;
@@ -26,6 +26,7 @@ margin: 1% auto;
   border-top: 20px solid #FE9706;
   width: 60%;
   min-height: 70px;
+  margin-bottom: 1%;
 
   border-radius: 0px 0px 15px 15px;
   -webkit-border-radius: 0px 0px 15px 15px;
@@ -64,6 +65,7 @@ margin: 1% auto;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
 
+  vertical-align: top;
   display: inline-block;  
   width: 30% !important;
   min-height: 250px;

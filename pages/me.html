@@ -1,4 +1,4 @@
-
+<!-- 
 <div class="panel-container">
     <div id="item1" class="lightStylePanel" draggable>
         PREND MOIIIII !!
@@ -6,4 +6,20 @@
 </div>
 <div class="dropTarget" droppable drop="handleDrop()"> 
     Jette moi ici ! 
-</div>
+</div> -->
+
+<!-- <div> -->
+
+	<div class="panel-container" >
+	  <div id="item1" ng-repeat="etape in parcours" class="lightStylePanel" draggable>
+	    PREND MOIIIII !!
+	    <p>{{etape.title}}</p>
+	    <p>{{etape.article}}</p>
+	  </div>
+	</div>
+
+  <div class="dropTarget" droppable drop="handleDrop()"> 
+    Jette moi ici ! 
+  </div>
+  
+<!-- </div> -->
